@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="PHPWind主页面">
+	<locator name="充值按钮" type="css" value="#content > div > div > div > a.btn.btn-warning" time="5">PayBotton</locator>
+	<locator name="线下充值单选框" type="css" value="#content > form > table > tbody > tr:nth-child(2) > td.form-inline.fund_audit > div.offline > label:nth-child(2)" time="5">offLinePay</locator>
+	<locator name="银行账号输入框" type="css" value="#content > form > table > tbody > tr.offline > td:nth-child(2) > input[type='text']" time="5">accountInputBox</locator>
+	<locator name="金额输入框" type="css" value="#content > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > div > input" time="5">MoneyInputBox</locator>
+	<locator name="验证码按钮" type="css" value="#content > form > table > tbody > tr:nth-child(5) > td:nth-child(2) > input" timeout="8">mNumInputbox</locator>    
+	<locator name="确认提交" type="css" value="#content > form > table > tbody > tr:nth-child(6) > td:nth-child(2) > button" timeout="5">submitBotton</locator>    
+	<locator name="显示登录用户菜单" type="css" value="#content > h4" time="5">userMenu</locator>
+	
+</page>

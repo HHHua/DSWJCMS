@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="suite1">
+    <parameter name="url" value="http://192.168.0.60/"></parameter>
+<test name="test1">
+<classes>
+<class name="com.lbl.demo.testCase" />
+</classes>
+</test>
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter" /> 
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners>
+</suite>
+
+
+
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="登录页面"><!-- 登录页面  -->
+    <locator name="进入登录按钮" type="css" value="body > header > div > div > div.info.span6 > a:nth-child(1)" timeout="5">goLoginBotton</locator>
+    <locator name="用户输入框" type="css" value="input[name='username']" timeout="5">usernameInputBox</locator>
+    <locator name="密码输入框" type="css" value="input[name='password']" timeout="5">passwordInputBox</locator>    
+    <locator name="登录按钮" type="css" value="input#CaptchaInputText" timeout="5">loginBotton</locator>    
+</page>
